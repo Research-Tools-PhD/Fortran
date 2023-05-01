@@ -1,0 +1,202 @@
+./23_tree_rebalance ../data/d3_1.dat 
+
+Tree before rebalancing: 
+ Number of nodes in the tree:         1000
+ Depth of the tree is:         1000
+ Number of nodes with only one leaf:          999
+ Performing    5000 Binary search tree l took:    2.538141 ms
+ Checksum:   2.50201088E+09
+ Performing    5000 Rebalancing the tree took:    0.000140 ms
+ Tree after rebalancing: 
+ Number of nodes in the tree:         1000
+ Depth of the tree is:           10
+ Number of nodes with only one leaf:           23
+ Performing    5000  Binary tree lookups took:    0.390513 ms
+ Checksum:   2.50201088E+09
+ Checksum is correct
+
+ Performance counter stats for './23_tree_balance ../data/d3_1.dat':
+
+          2,940.02 msec task-clock:u                     #    0.997 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               131      page-faults:u                    #   44.557 /sec                      
+     9,239,390,428      cycles:u                         #    3.143 GHz                       
+    15,740,508,149      instructions:u                   #    1.70  insn per cycle            
+     5,267,399,374      branches:u                       #    1.792 G/sec                     
+        32,313,333      branch-misses:u                  #    0.61% of all branches           
+
+       2.950284825 seconds time elapsed
+
+       2.932549000 seconds user
+       0.007991000 seconds sys
+
+
+################################################################################################
+./23_tree_rebalance ../data/d3_2.dat
+Tree before rebalancing: 
+ Number of nodes in the tree:          200
+ Depth of the tree is:          200
+ Number of nodes with only one leaf:          199
+ Performing    5000 Binary search tree l took:    0.520248 ms
+ Checksum:   503472992.    
+ Performing    5000 Rebalancing the tree took:    0.000055 ms
+ Tree after rebalancing: 
+ Number of nodes in the tree:          200
+ Depth of the tree is:            8
+ Number of nodes with only one leaf:           55
+ Performing    5000  Binary tree lookups took:    0.244970 ms
+ Checksum:   503472992.    
+ Checksum is correct
+
+ Performance counter stats for './23_tree_balance ../data/d3_2.dat':
+
+            778.65 msec task-clock:u                     #    0.995 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               111      page-faults:u                    #  142.554 /sec                      
+     2,483,334,840      cycles:u                         #    3.189 GHz                       
+     3,583,522,538      instructions:u                   #    1.44  insn per cycle            
+     1,203,316,955      branches:u                       #    1.545 G/sec                     
+        23,863,880      branch-misses:u                  #    1.98% of all branches           
+
+       0.782246121 seconds time elapsed
+
+       0.768376000 seconds user
+       0.012405000 seconds sys
+
+
+################################################################################################
+./23_tree_rebalance ../data/d3_3.dat
+ Tree before rebalancing: 
+ Number of nodes in the tree:          500
+ Depth of the tree is:          426
+ Number of nodes with only one leaf:          487
+ Performing    5000 Binary search tree l took:    1.223564 ms
+ Checksum:   1.25143629E+09
+ Performing    5000 Rebalancing the tree took:    0.000124 ms
+ Tree after rebalancing: 
+ Number of nodes in the tree:          500
+ Depth of the tree is:            9
+ Number of nodes with only one leaf:           11
+ Performing    5000  Binary tree lookups took:    0.349411 ms
+ Checksum:   1.25143629E+09
+ Checksum is correct
+
+ Performance counter stats for './23_tree_balance ../data/d3_3.dat':
+
+          1,582.36 msec task-clock:u                     #    0.998 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               116      page-faults:u                    #   73.308 /sec                      
+     5,165,543,562      cycles:u                         #    3.264 GHz                       
+     8,126,223,621      instructions:u                   #    1.57  insn per cycle            
+     2,724,208,819      branches:u                       #    1.722 G/sec                     
+        29,192,084      branch-misses:u                  #    1.07% of all branches           
+
+       1.586074875 seconds time elapsed
+
+       1.579407000 seconds user
+       0.003998000 seconds sys
+
+
+################################################################################################
+./23_tree_rebalance ../data/d3_4.dat
+Tree before rebalancing: 
+ Number of nodes in the tree:         1000
+ Depth of the tree is:         1000
+ Number of nodes with only one leaf:          999
+ Performing    5000 Binary search tree l took:    2.367324 ms
+ Checksum:   2.49536026E+09
+ Performing    5000 Rebalancing the tree took:    0.000139 ms
+ Tree after rebalancing: 
+ Number of nodes in the tree:         1000
+ Depth of the tree is:           10
+ Number of nodes with only one leaf:           23
+ Performing    5000  Binary tree lookups took:    0.340277 ms
+ Checksum:   2.49536026E+09
+ Checksum is correct
+
+ Performance counter stats for './23_tree_balance ../data/d3_4.dat':
+
+          2,718.71 msec task-clock:u                     #    0.999 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               131      page-faults:u                    #   48.185 /sec                      
+     9,009,731,833      cycles:u                         #    3.314 GHz                       
+    15,731,392,389      instructions:u                   #    1.75  insn per cycle            
+     5,264,275,252      branches:u                       #    1.936 G/sec                     
+        32,217,589      branch-misses:u                  #    0.61% of all branches           
+
+       2.721414108 seconds time elapsed
+
+       2.719250000 seconds user
+       0.000000000 seconds sys
+
+################################################################################################
+./23_tree_rebalance ../data/d3_5.dat
+Tree before rebalancing: 
+ Number of nodes in the tree:          317
+ Depth of the tree is:           19
+ Number of nodes with only one leaf:          112
+ Performing    5000 Binary search tree l took:    0.963064 ms
+ Checksum:   1.31626586E+09
+ Performing    5000 Rebalancing the tree took:    0.000089 ms
+ Tree after rebalancing: 
+ Number of nodes in the tree:          317
+ Depth of the tree is:            9
+ Number of nodes with only one leaf:           62
+ Performing    5000  Binary tree lookups took:    0.273569 ms
+ Checksum:   1.31626586E+09
+ Checksum is correct
+
+ Performance counter stats for './23_tree_balance ../data/d3_5.dat':
+
+          1,246.41 msec task-clock:u                     #    0.969 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               113      page-faults:u                    #   90.661 /sec                      
+     4,059,168,286      cycles:u                         #    3.257 GHz                       
+     6,273,977,266      instructions:u                   #    1.55  insn per cycle            
+     2,103,530,921      branches:u                       #    1.688 G/sec                     
+        26,006,393      branch-misses:u                  #    1.24% of all branches           
+
+       1.286079296 seconds time elapsed
+
+       1.237198000 seconds user
+       0.010177000 seconds sys
+
+################################################################################################
+./23_tree_rebalance ../data/d3_6.dat
+Tree before rebalancing: 
+ Number of nodes in the tree:          313
+ Depth of the tree is:           14
+ Number of nodes with only one leaf:           98
+ Performing    5000 Binary search tree l took:    0.962713 ms
+ Checksum:   1.26198579E+09
+ Performing    5000 Rebalancing the tree took:    0.000060 ms
+ Tree after rebalancing: 
+ Number of nodes in the tree:          313
+ Depth of the tree is:            9
+ Number of nodes with only one leaf:           58
+ Performing    5000  Binary tree lookups took:    0.273842 ms
+ Checksum:   1.26198579E+09
+ Checksum is correct
+
+ Performance counter stats for './23_tree_balance ../data/d3_6.dat':
+
+          1,251.51 msec task-clock:u                     #    0.996 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               113      page-faults:u                    #   90.291 /sec                      
+     4,009,235,649      cycles:u                         #    3.204 GHz                       
+     6,245,940,749      instructions:u                   #    1.56  insn per cycle            
+     2,094,574,625      branches:u                       #    1.674 G/sec                     
+        26,006,623      branch-misses:u                  #    1.24% of all branches           
+
+       1.256148568 seconds time elapsed
+
+       1.236680000 seconds user
+       0.015975000 seconds sys
+
+################################################################################################

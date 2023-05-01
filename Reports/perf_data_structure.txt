@@ -1,0 +1,194 @@
+perf stat ./17_linked_list ../data/d3_1.dat 
+ Performing    5000  array value lookups took:    1.614509 ms
+ Checksum:   2.50388762E+09
+ Performing    5000  Linked list lookups took:    3.264499 ms
+ Checksum:   2.50388762E+09
+ Checksum is correct
+
+ Performance counter stats for './17_linked_list ../data/d3_1.dat':
+
+          4,881.08 msec task-clock:u                     #    0.999 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               120      page-faults:u                    #   24.585 /sec                      
+    15,783,226,792      cycles:u                         #    3.234 GHz                       
+    27,695,406,665      instructions:u                   #    1.75  insn per cycle            
+    10,043,055,916      branches:u                       #    2.058 G/sec                     
+        10,105,123      branch-misses:u                  #    0.10% of all branches           
+
+       4.883925701 seconds time elapsed
+
+       4.881636000 seconds user
+       0.000000000 seconds sys
+
+
+###########################################################################################
+
+perf stat ./18_hash ../data/d3_1.dat 
+ Performing    5000  array value lookups took:    0.850921 ms
+ Checksum:   2.49863245E+09
+ Performing    5000       htable lookups took:    0.076198 ms
+ Checksum:   2.49863245E+09
+ Checksum is correct
+
+ Performance counter stats for './18_hash ../data/d3_1.dat':
+
+            929.22 msec task-clock:u                     #    0.998 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               119      page-faults:u                    #  128.064 /sec                      
+     3,090,082,459      cycles:u                         #    3.325 GHz                       
+    13,060,139,277      instructions:u                   #    4.23  insn per cycle            
+     5,107,688,987      branches:u                       #    5.497 G/sec                     
+        11,022,702      branch-misses:u                  #    0.22% of all branches           
+
+       0.931011911 seconds time elapsed
+
+       0.930307000 seconds user
+       0.000000000 seconds sys
+
+
+###########################################################################################
+
+perf stat ./19_stack ../data/d3_1.dat 
+ Pushed to s1:            1
+ Pushed to s1:            2
+ Pushed to s1:            3
+ Pushed to s1:            4
+ Pushed to s1:            5
+ Length of s1:            5
+ Length of s2:            5
+ Pushed to s1 more data:            6
+ Pushed to s2 more data:           36
+ Pushed to s1 more data:            7
+ Pushed to s2 more data:           49
+ Pushed to s1 more data:            8
+ Pushed to s2 more data:           64
+ Pushed to s1 more data:            9
+ Pushed to s2 more data:           81
+ Pushed to s1 more data:           10
+ Pushed to s2 more data:          100
+ Popped from s1:           10
+ Popped from s1:            9
+ Popped from s1:            8
+ Popped from s1:            7
+ Popped from s1:            6
+ Popped from s1:            5
+ Popped from s1:            4
+ Popped from s1:            3
+ Popped from s1:            2
+ Popped from s1:            1
+ Popped from s2:          100
+ Popped from s2:           81
+ Popped from s2:           64
+ Popped from s2:           49
+ Popped from s2:           36
+ Popped from s2:            5
+ Popped from s2:            4
+ Popped from s2:            3
+ Popped from s2:            2
+ Popped from s2:            1
+ Done
+
+ Performance counter stats for './19_stack ../data/d3_1.dat':
+
+              2.94 msec task-clock:u                     #    0.622 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                96      page-faults:u                    #   32.661 K/sec                     
+           586,747      cycles:u                         #    0.200 GHz                       
+           368,526      instructions:u                   #    0.63  insn per cycle            
+            79,419      branches:u                       #   27.020 M/sec                     
+             6,124      branch-misses:u                  #    7.71% of all branches           
+
+       0.004725186 seconds time elapsed
+
+       0.000000000 seconds user
+       0.004468000 seconds sys
+
+
+###########################################################################################
+
+perf stat ./20_stack_list ../data/d3_1.dat 
+ Pushed to l1:            1
+ Pushed to l1:            2
+ Pushed to l1:            3
+ Pushed to l1:            4
+ Pushed to l1:            5
+ Length of l1:            5
+ Length of l2:            5
+ Pushed to l1 more data:            6
+ Pushed to l2 more data:           36
+ Pushed to l1 more data:            7
+ Pushed to l2 more data:           49
+ Pushed to l1 more data:            8
+ Pushed to l2 more data:           64
+ Pushed to l1 more data:            9
+ Pushed to l2 more data:           81
+ Pushed to l1 more data:           10
+ Pushed to l2 more data:          100
+ Popped from l1:           10
+ Popped from l1:            9
+ Popped from l1:            8
+ Popped from l1:            7
+ Popped from l1:            6
+ Popped from l1:            5
+ Popped from l1:            4
+ Popped from l1:            3
+ Popped from l1:            2
+ Popped from l1:            1
+ Popped from l2:          100
+ Popped from l2:           81
+ Popped from l2:           64
+ Popped from l2:           49
+ Popped from l2:           36
+ Popped from l2:            1
+ Popped from l2:            2
+ Popped from l2:            3
+ Popped from l2:            4
+ Popped from l2:            5
+ Done
+
+ Performance counter stats for './20_stack_list ../data/d3_1.dat':
+
+              1.35 msec task-clock:u                     #    0.641 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                97      page-faults:u                    #   71.880 K/sec                     
+           655,542      cycles:u                         #    0.486 GHz                       
+           367,766      instructions:u                   #    0.56  insn per cycle            
+            79,510      branches:u                       #   58.920 M/sec                     
+             5,999      branch-misses:u                  #    7.54% of all branches           
+
+       0.002104847 seconds time elapsed
+
+       0.002061000 seconds user
+       0.000000000 seconds sys
+
+###########################################################################################
+
+perf stat ./21_binary ../data/d3_1.dat 
+ Performing    5000  array value lookups took:    5.568916 ms
+ Checksum:   2.54006656E+09
+ Performing    5000  Binary tree lookups took:   14.656483 ms
+ Checksum:   2.54006656E+09
+ Checksum is correct
+
+ Performance counter stats for './21_binary ../data/d3_1.dat':
+
+         20,232.05 msec task-clock:u                     #    1.000 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               132      page-faults:u                    #    6.524 /sec                      
+    67,271,004,105      cycles:u                         #    3.325 GHz                       
+   140,090,821,423      instructions:u                   #    2.08  insn per cycle            
+    22,898,681,153      branches:u                       #    1.132 G/sec                     
+        25,104,375      branch-misses:u                  #    0.11% of all branches           
+
+      20.237559498 seconds time elapsed
+
+      20.232990000 seconds user
+       0.000000000 seconds sys
+
+
+###########################################################################################

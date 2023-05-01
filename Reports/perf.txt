@@ -1,0 +1,284 @@
+Sorting     500 unsorted random elements took:    0.000575 seconds
+ Sorting     500  already sorted elements took:    0.000371 seconds
+ Sorting     500   mostly sorted elements took:    0.000474 seconds
+ Sorting    1000 unsorted random elements took:    0.003054 seconds
+ Sorting    1000  already sorted elements took:    0.002040 seconds
+ Sorting    1000   mostly sorted elements took:    0.002027 seconds
+ Sorting    2000 unsorted random elements took:    0.010138 seconds
+ Sorting    2000  already sorted elements took:    0.006397 seconds
+ Sorting    2000   mostly sorted elements took:    0.006140 seconds
+ Sorting    5000 unsorted random elements took:    0.071176 seconds
+ Sorting    5000  already sorted elements took:    0.040455 seconds
+ Sorting    5000   mostly sorted elements took:    0.038325 seconds
+ Sorting   10000 unsorted random elements took:    0.272297 seconds
+ Sorting   10000  already sorted elements took:    0.149193 seconds
+ Sorting   10000   mostly sorted elements took:    0.143030 seconds
+ Sorting   20000 unsorted random elements took:    1.210494 seconds
+ Sorting   20000  already sorted elements took:    0.584993 seconds
+ Sorting   20000   mostly sorted elements took:    0.563241 seconds
+ Sorting   50000 unsorted random elements took:    8.140129 seconds
+ Sorting   50000  already sorted elements took:    3.521694 seconds
+ Sorting   50000   mostly sorted elements took:    3.440693 seconds
+ Sorting  100000 unsorted random elements took:   32.670570 seconds
+ Sorting  100000  already sorted elements took:   13.661350 seconds
+ Sorting  100000   mostly sorted elements took:   13.710579 seconds
+ Sorting  200000 unsorted random elements took:  132.304977 seconds
+ Sorting  200000  already sorted elements took:   54.606705 seconds
+ Sorting  200000   mostly sorted elements took:   54.584747 seconds
+
+ Performance counter stats for './09_simple_sort':
+
+        319,755.73 msec task-clock:u                     #    1.000 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               468      page-faults:u                    #    1.464 /sec                      
+ 1,063,960,583,644      cycles:u                         #    3.327 GHz                       
+ 2,013,924,004,078      instructions:u                   #    1.89  insn per cycle            
+   238,648,193,881      branches:u                       #  746.345 M/sec                     
+     7,205,499,248      branch-misses:u                  #    3.02% of all branches           
+
+     319.826430568 seconds time elapsed
+
+     319.749820000 seconds user
+       0.007999000 seconds sys
+
+
+###############################################################################
+
+
+
+Sorting     500 unsorted random elements took:    0.000569 seconds
+ Sorting     500  already sorted elements took:    0.000003 seconds
+ Sorting     500   mostly sorted elements took:    0.000382 seconds
+ Sorting    1000 unsorted random elements took:    0.002291 seconds
+ Sorting    1000  already sorted elements took:    0.000004 seconds
+ Sorting    1000   mostly sorted elements took:    0.001394 seconds
+ Sorting    2000 unsorted random elements took:    0.010210 seconds
+ Sorting    2000  already sorted elements took:    0.000008 seconds
+ Sorting    2000   mostly sorted elements took:    0.005293 seconds
+ Sorting    5000 unsorted random elements took:    0.066239 seconds
+ Sorting    5000  already sorted elements took:    0.000033 seconds
+ Sorting    5000   mostly sorted elements took:    0.036194 seconds
+ Sorting   10000 unsorted random elements took:    0.280410 seconds
+ Sorting   10000  already sorted elements took:    0.000031 seconds
+ Sorting   10000   mostly sorted elements took:    0.127494 seconds
+ Sorting   20000 unsorted random elements took:    1.199324 seconds
+ Sorting   20000  already sorted elements took:    0.000079 seconds
+ Sorting   20000   mostly sorted elements took:    0.481299 seconds
+ Sorting   50000 unsorted random elements took:    7.940526 seconds
+ Sorting   50000  already sorted elements took:    0.000201 seconds
+ Sorting   50000   mostly sorted elements took:    2.982069 seconds
+ Sorting  100000 unsorted random elements took:   32.743881 seconds
+ Sorting  100000  already sorted elements took:    0.000362 seconds
+ Sorting  100000   mostly sorted elements took:   11.789516 seconds
+ Sorting  200000 unsorted random elements took:  132.683472 seconds
+ Sorting  200000  already sorted elements took:    0.000504 seconds
+ Sorting  200000   mostly sorted elements took:   47.238449 seconds
+
+ Performance counter stats for './10_bubble_sort':
+
+        237,600.95 msec task-clock:u                     #    1.000 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               469      page-faults:u                    #    1.974 /sec                      
+   791,258,831,623      cycles:u                         #    3.330 GHz                       
+ 1,550,960,823,003      instructions:u                   #    1.96  insn per cycle            
+   159,104,139,534      branches:u                       #  669.628 M/sec                     
+     7,127,601,085      branch-misses:u                  #    4.48% of all branches           
+
+     237.642203667 seconds time elapsed
+
+     237.578918000 seconds user
+       0.023999000 seconds sys
+
+
+
+###############################################################################
+
+Sorting     500 unsorted random elements took:    0.000218 seconds
+ Sorting     500  already sorted elements took:    0.000005 seconds
+ Sorting     500   mostly sorted elements took:    0.000017 seconds
+ Sorting    1000 unsorted random elements took:    0.001120 seconds
+ Sorting    1000  already sorted elements took:    0.000007 seconds
+ Sorting    1000   mostly sorted elements took:    0.000020 seconds
+ Sorting    2000 unsorted random elements took:    0.003338 seconds
+ Sorting    2000  already sorted elements took:    0.000010 seconds
+ Sorting    2000   mostly sorted elements took:    0.000042 seconds
+ Sorting    5000 unsorted random elements took:    0.021794 seconds
+ Sorting    5000  already sorted elements took:    0.000029 seconds
+ Sorting    5000   mostly sorted elements took:    0.000166 seconds
+ Sorting   10000 unsorted random elements took:    0.083757 seconds
+ Sorting   10000  already sorted elements took:    0.000076 seconds
+ Sorting   10000   mostly sorted elements took:    0.000256 seconds
+ Sorting   20000 unsorted random elements took:    0.302658 seconds
+ Sorting   20000  already sorted elements took:    0.000088 seconds
+ Sorting   20000   mostly sorted elements took:    0.000569 seconds
+ Sorting   50000 unsorted random elements took:    2.050240 seconds
+ Sorting   50000  already sorted elements took:    0.000303 seconds
+ Sorting   50000   mostly sorted elements took:    0.001746 seconds
+ Sorting  100000 unsorted random elements took:    7.878411 seconds
+ Sorting  100000  already sorted elements took:    0.000474 seconds
+ Sorting  100000   mostly sorted elements took:    0.003471 seconds
+ Sorting  200000 unsorted random elements took:   31.565681 seconds
+ Sorting  200000  already sorted elements took:    0.000950 seconds
+ Sorting  200000   mostly sorted elements took:    0.008060 seconds
+
+ Performance counter stats for './11_insertion_sort':
+
+         41,938.94 msec task-clock:u                     #    0.999 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               469      page-faults:u                    #   11.183 /sec                      
+   136,956,183,773      cycles:u                         #    3.266 GHz                       
+   410,393,673,300      instructions:u                   #    3.00  insn per cycle            
+    26,483,608,148      branches:u                       #  631.480 M/sec                     
+           473,545      branch-misses:u                  #    0.00% of all branches           
+
+      41.994680821 seconds time elapsed
+
+      41.929410000 seconds user
+       0.007999000 seconds sys
+
+
+
+###############################################################################
+Sorting     500 unsorted random elements took:    0.000030 seconds
+ Sorting     500  already sorted elements took:    0.000208 seconds
+ Sorting     500   mostly sorted elements took:    0.000039 seconds
+ Sorting    1000 unsorted random elements took:    0.000061 seconds
+ Sorting    1000  already sorted elements took:    0.000803 seconds
+ Sorting    1000   mostly sorted elements took:    0.000263 seconds
+ Sorting    2000 unsorted random elements took:    0.000150 seconds
+ Sorting    2000  already sorted elements took:    0.002502 seconds
+ Sorting    2000   mostly sorted elements took:    0.000847 seconds
+ Sorting    5000 unsorted random elements took:    0.000384 seconds
+ Sorting    5000  already sorted elements took:    0.016755 seconds
+ Sorting    5000   mostly sorted elements took:    0.005640 seconds
+ Sorting   10000 unsorted random elements took:    0.000830 seconds
+ Sorting   10000  already sorted elements took:    0.066629 seconds
+ Sorting   10000   mostly sorted elements took:    0.021726 seconds
+ Sorting   20000 unsorted random elements took:    0.001585 seconds
+ Sorting   20000  already sorted elements took:    0.222112 seconds
+ Sorting   20000   mostly sorted elements took:    0.069413 seconds
+ Sorting   50000 unsorted random elements took:    0.003994 seconds
+ Sorting   50000  already sorted elements took:    1.528124 seconds
+ Sorting   50000   mostly sorted elements took:    0.139152 seconds
+ Sorting  100000 unsorted random elements took:    0.009183 seconds
+./12_quick_sort: Segmentation fault
+
+ Performance counter stats for './12_quick_sort':
+
+          6,304.87 msec task-clock:u                     #    0.981 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+             2,312      page-faults:u                    #  366.700 /sec                      
+    20,509,050,712      cycles:u                         #    3.253 GHz                       
+    83,625,495,720      instructions:u                   #    4.08  insn per cycle            
+    16,813,185,934      branches:u                       #    2.667 G/sec                     
+         1,572,742      branch-misses:u                  #    0.01% of all branches           
+
+       6.427796416 seconds time elapsed
+
+       6.297843000 seconds user
+       0.007997000 seconds sys
+
+
+###############################################################################
+Sorting     500 unsorted random elements took:    0.000068 seconds
+ Sorting     500  already sorted elements took:    0.000035 seconds
+ Sorting     500   mostly sorted elements took:    0.000032 seconds
+ Sorting    1000 unsorted random elements took:    0.000133 seconds
+ Sorting    1000  already sorted elements took:    0.000063 seconds
+ Sorting    1000   mostly sorted elements took:    0.000115 seconds
+ Sorting    2000 unsorted random elements took:    0.000303 seconds
+ Sorting    2000  already sorted elements took:    0.000218 seconds
+ Sorting    2000   mostly sorted elements took:    0.000178 seconds
+ Sorting    5000 unsorted random elements took:    0.000815 seconds
+ Sorting    5000  already sorted elements took:    0.000366 seconds
+ Sorting    5000   mostly sorted elements took:    0.000416 seconds
+ Sorting   10000 unsorted random elements took:    0.001586 seconds
+ Sorting   10000  already sorted elements took:    0.000910 seconds
+ Sorting   10000   mostly sorted elements took:    0.000885 seconds
+ Sorting   20000 unsorted random elements took:    0.003338 seconds
+ Sorting   20000  already sorted elements took:    0.001737 seconds
+ Sorting   20000   mostly sorted elements took:    0.001633 seconds
+ Sorting   50000 unsorted random elements took:    0.008196 seconds
+ Sorting   50000  already sorted elements took:    0.002941 seconds
+ Sorting   50000   mostly sorted elements took:    0.003642 seconds
+ Sorting  100000 unsorted random elements took:    0.017199 seconds
+ Sorting  100000  already sorted elements took:    0.005968 seconds
+ Sorting  100000   mostly sorted elements took:    0.007384 seconds
+ Sorting  200000 unsorted random elements took:    0.035740 seconds
+ Sorting  200000  already sorted elements took:    0.015067 seconds
+ Sorting  200000   mostly sorted elements took:    0.015252 seconds
+
+ Performance counter stats for './13_merge_sort':
+
+            136.82 msec task-clock:u                     #    0.987 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               996      page-faults:u                    #    7.280 K/sec                     
+       407,887,572      cycles:u                         #    2.981 GHz                       
+       762,479,492      instructions:u                   #    1.87  insn per cycle            
+       131,362,193      branches:u                       #  960.103 M/sec                     
+         3,783,211      branch-misses:u                  #    2.88% of all branches           
+
+       0.138555435 seconds time elapsed
+
+       0.129046000 seconds user
+       0.008225000 seconds sys
+
+
+
+###############################################################################
+Sorting     500 unsorted random elements took:    0.000146 seconds
+ Sorting     500  already sorted elements took:    0.000067 seconds
+ Sorting     500   mostly sorted elements took:    0.000050 seconds
+ Sorting    1000 unsorted random elements took:    0.000188 seconds
+ Sorting    1000  already sorted elements took:    0.000084 seconds
+ Sorting    1000   mostly sorted elements took:    0.000092 seconds
+ Sorting    2000 unsorted random elements took:    0.000334 seconds
+ Sorting    2000  already sorted elements took:    0.000174 seconds
+ Sorting    2000   mostly sorted elements took:    0.000189 seconds
+ Sorting    5000 unsorted random elements took:    0.000912 seconds
+ Sorting    5000  already sorted elements took:    0.000497 seconds
+ Sorting    5000   mostly sorted elements took:    0.000491 seconds
+ Sorting   10000 unsorted random elements took:    0.001799 seconds
+ Sorting   10000  already sorted elements took:    0.001063 seconds
+ Sorting   10000   mostly sorted elements took:    0.001022 seconds
+ Sorting   20000 unsorted random elements took:    0.003872 seconds
+ Sorting   20000  already sorted elements took:    0.002142 seconds
+ Sorting   20000   mostly sorted elements took:    0.002340 seconds
+ Sorting   50000 unsorted random elements took:    0.009362 seconds
+ Sorting   50000  already sorted elements took:    0.005776 seconds
+ Sorting   50000   mostly sorted elements took:    0.005593 seconds
+ Sorting  100000 unsorted random elements took:    0.019509 seconds
+ Sorting  100000  already sorted elements took:    0.009756 seconds
+ Sorting  100000   mostly sorted elements took:    0.009414 seconds
+ Sorting  200000 unsorted random elements took:    0.038289 seconds
+ Sorting  200000  already sorted elements took:    0.017581 seconds
+ Sorting  200000   mostly sorted elements took:    0.013839 seconds
+
+ Performance counter stats for './14_hybrid_sort':
+
+            158.62 msec task-clock:u                     #    0.746 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+             1,631      page-faults:u                    #   10.282 K/sec                     
+       449,729,367      cycles:u                         #    2.835 GHz                       
+       801,974,398      instructions:u                   #    1.78  insn per cycle            
+       140,757,601      branches:u                       #  887.363 M/sec                     
+         3,225,741      branch-misses:u                  #    2.29% of all branches           
+
+       0.212668009 seconds time elapsed
+
+       0.151430000 seconds user
+       0.007731000 seconds sys
+
+
+###############################################################################
+
+
+
+
+
